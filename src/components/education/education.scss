@@ -1,0 +1,10 @@
+@import "./../../styles/variables.scss";
+
+section.education,
+section.continuing-education {
+  ul {
+    li:not(:first-of-type) {
+      margin-top: $size-4;
+    }
+  }
+}

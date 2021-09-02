@@ -1,0 +1,27 @@
+@import "./../../styles/variables.scss";
+
+section.skills {
+  p {
+    display: flex;
+    flex-direction: row;
+
+    span {
+      &.im {
+        margin-right: $size-4;
+        font-size: $font-xxl;
+      }
+
+      &:last-child {
+        font-size: $font-l;
+        line-height: 2.5;
+      }
+    }
+
+    // rxjs icon
+    img {
+      margin-right: $size-4;
+      max-width: 36px;
+      margin-left:-3px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300; // light
+  font-style: normal;
+  font-display: swap;
+  src: url('./../assets/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400; // normal
+  font-style: normal;
+  font-display: swap;
+  src: url('./../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700; // bold
+  font-style: normal;
+  font-display: swap;
+  src: url('./../assets/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900; // black
+  font-style: normal;
+  font-display: swap;
+  src: url('./../assets/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('./../assets/fonts/icomoon.ttf?muvgw8') format('truetype'),
+  url('./../assets/fonts/icomoon.eot?muvgw8') format('embedded-opentype'),
+  url('./../assets/fonts/icomoon.svg?muvgw8') format('svg'),
+  url('./../assets/fonts/icomoon.woff?muvgw8') format('woff');
+}

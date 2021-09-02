@@ -1,0 +1,55 @@
+@import "./../../styles/variables.scss";
+
+section.experience {
+  ul {
+    li {
+      &.parent:not(:first-of-type) {
+        margin-top: $size-3;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+
+        p {
+          &:first-child {
+            min-width: 1.9cm;
+            margin-right: $size-4;
+          }
+
+          &.date, &.position, > b {
+            font-size: $font-sm;
+          }
+        }
+
+        ul.responsabilities {
+          list-style-type: disc;
+
+          li {
+            display: list-item;
+            margin-top: 0!important;
+            font-size: $font-s;
+          }
+        }
+
+        &.sublist {
+          margin-top: $size-5;
+
+          p {
+            font-size: $font-s;
+
+            &:last-child {
+              font-weight: $font-normal;
+            }
+          }
+
+          &.publications {
+            p:last-child {
+              font-weight: $font-light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
