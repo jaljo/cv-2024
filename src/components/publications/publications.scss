@@ -1,0 +1,17 @@
+@import "./../../styles/variables.scss";
+
+section.publications {
+  ul {
+    li {
+      &:last-child {
+        margin-top: $size-4;
+      }
+
+      a {
+        font-size: $font-s;
+        text-decoration: none;
+        border-bottom: 1px $deep-black solid;
+      }
+    }
+  }
+}

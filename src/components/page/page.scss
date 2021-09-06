@@ -1,9 +1,28 @@
 @import "./../../styles/variables.scss";
 
 main.page {
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
+
+  p.available-now {
+    position: absolute;
+    top: 26px;
+    right: -104px;
+    width: 300px;
+    transform: rotateZ(45deg);
+    text-align: center;
+    color: $white;
+    padding: $size-4;
+    background-color: $light-red;
+
+    b {
+      color: $white;
+      font-weight: $font-normal;
+    }
+  }
 
   aside {
     padding: $size-2;
@@ -16,7 +35,7 @@ main.page {
 
     // about me, references, etc
     &.left-column {
-      min-width: 24%;
+      width: 25%;
       background: linear-gradient(
         150deg,
         $deep-red 0%,

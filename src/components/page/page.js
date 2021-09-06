@@ -10,6 +10,12 @@ import Publications from "./../publications";
 // Page :: Props -> React.Component
 const Page = () =>
   <main className="page">
+    {/* Available now */}
+    <p className="available-now">
+      Living in Tallinn<br/>
+      <b>Open to work now</b>
+    </p>
+
     {/* Left column */}
     <aside className="left-column">
       <section className="photo">

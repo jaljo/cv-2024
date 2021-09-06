@@ -4,7 +4,7 @@ const experiences = [
     date: "2020 / 2021",
     position: "Full Stack Developer",
     company: "Self employed, Tallinn, EE.",
-    responsabilities : [
+    responsabilities: [
       `Development & deployment of JAM stack architectured apps for SMEs`,
       `
         Development of puzzle games for the french escape game company "La ligue
@@ -26,24 +26,26 @@ const experiences = [
   },
   {
     date: "2018 / 2020",
-    position: "Developer (Syfmony / React)",
+    position: "Lead developer (Symfony, React)",
     company: "KNP Labs, Nantes, FR.",
     responsabilities: [
-      `Development, testing & code reviews of endpoints on i24NEWS REST API`,
-      `Migration from Algolia search engine to Elastic Search`,
       `
         Development of a new single page app (SPA) back office for i24NEWS
-        editors and of a new SPA frontend for i24NEWS readers : i24news.tv
+        editors and of a new SPA frontend for i24NEWS readers: i24news.tv
       `,
       `
-        Deployments on i24NEWS infractructure (two swarm clusters : EU & US)
+        Development, testing & code reviews of endpoints on i24NEWS REST API,
+        refactoring (i.e migration from Algolia search engine to Elastic Search)
+      `,
+      `
+        Deployments on i24NEWS infractructure (two swarm clusters: EU & US)
       `,
       `Coordination of i24NEWS third party providers (GRTH, Gini Apps, etc)`,
       `
         Coordination of i24NEWS staff to assist them in the definition of their
         needs
       `,
-      `Onboarding and coaching of junior developers`,
+      `Onboarding, training and coaching of junior developers`,
     ],
     environment: [
       "Agile (SCRUM)",
@@ -77,7 +79,7 @@ const experiences = [
         Improvement of consultant's productivity by tracking & centralizing
         their clients assistance tickets in an integrated web app. Reporting on
         highest time consuming clients to give consultants insights on upcoming
-        periods...
+        periods
       `,
       `
         Installation and deployment of business solutions on site & remotely
@@ -88,6 +90,7 @@ const experiences = [
       "Jenkins",
       "PHP",
       "MySQL",
+      "layered architecture",
     ],
     techs: [
       "Symfony",
