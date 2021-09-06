@@ -1,0 +1,15 @@
+@import "./../../styles/variables.scss";
+
+section.references {
+  ul {
+    li {
+      margin-bottom: $size-4;
+
+      p {
+        b {
+          font-size: $font-sm;
+        }
+      }
+    }
+  }
+}

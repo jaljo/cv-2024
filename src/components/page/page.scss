@@ -1,0 +1,70 @@
+@import "./../../styles/variables.scss";
+
+main.page {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  aside {
+    padding: $size-2;
+    display: flex;
+    flex-direction: column;
+
+    section {
+      margin-bottom: $size-2;
+    }
+
+    // about me, references, etc
+    &.left-column {
+      min-width: 24%;
+      background: linear-gradient(
+        150deg,
+        $deep-red 0%,
+        $light-red 50%,
+        $lighter-red 100%
+      );
+
+      * {
+        color: $white;
+      }
+
+      section.photo {
+        img {
+          display: block;
+          margin: auto;
+          max-width: 150px;
+          border-radius: 75px;
+          border: 2px $white solid;
+          filter: contrast(125%) grayscale(100%);
+        }
+      }
+    }
+
+    // work experice and education
+    &.right-column {
+      h1.me {
+        font-size: $font-xxl;
+        margin-bottom: $size-4;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+
+      h2 {
+        font-size: $font-l;
+      }
+
+      section {
+        .aside-title {
+          span.separator {
+            display: none;
+          }
+        }
+
+        b {
+          color: $light-red;
+          font-weight: $font-normal;
+        }
+      }
+    }
+  }
+}

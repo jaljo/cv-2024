@@ -1,0 +1,17 @@
+@import "./../../styles/variables.scss";
+
+section.about-me {
+  p {
+    span.phone {
+      font-size: $font-sm;
+    }
+
+    &.links {
+      margin-top: $size-4;
+
+      span.im {
+        margin-right: $size-5;
+      }
+    }
+  }
+}
