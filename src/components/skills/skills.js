@@ -28,5 +28,6 @@ const Skills = () =>
       </li>
     </ul>
   </section>
+;
 
 export default Skills;

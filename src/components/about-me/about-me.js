@@ -28,5 +28,6 @@ const AboutMe = () =>
       </ul>
     </section>
   </>
+;
 
 export default AboutMe;

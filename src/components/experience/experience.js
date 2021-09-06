@@ -20,6 +20,7 @@ const SubList = ({
 const Experience = () =>
   <section className="experience">
     <AsideTitle title="Work experience" icon="d" />
+
     <ul>
       {experiences.map((exp, idx) =>
         <li className="parent" key={`exp-${idx}`}>
@@ -40,6 +41,7 @@ const Experience = () =>
               </ul>
             </div>
           </div>
+
           {exp.mergeEnvAndTechs
             ? <SubList
                 list={[...exp.techs, ...exp.environment]}
@@ -62,7 +64,6 @@ const Experience = () =>
           />
         </li>
       )}
-
     </ul>
   </section>
 ;

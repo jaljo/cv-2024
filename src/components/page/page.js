@@ -33,5 +33,6 @@ const Page = () =>
       <Education />
     </aside>
   </main>
+;
 
 export default Page;
