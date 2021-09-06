@@ -58,10 +58,6 @@ const Experience = () =>
                 />
               </>
           }
-          <SubList
-            list={exp.publications}
-            label="Publications"
-          />
         </li>
       )}
     </ul>

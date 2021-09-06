@@ -7,6 +7,7 @@ const Education = () =>
   <>
     <section className="continuing-education">
       <AsideTitle title="Continuing education" icon="w" />
+
       <ul>
         <li>
           <b>Engineer's degree in Computer Science</b>, In progress, École

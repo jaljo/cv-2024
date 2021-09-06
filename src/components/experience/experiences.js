@@ -22,7 +22,6 @@ const experiences = [
       "Strapi",
       "Gatsby",
     ],
-    publications: [],
     mergeEnvAndTechs: true,
   },
   {
@@ -67,12 +66,6 @@ const experiences = [
       "Swagger",
       "Doctrine",
     ],
-    publications: [
-      `
-        Langlois, J., Mure, N., How we build a medium-like rich text editor, KNP
-        Labs Blog, knplabs.com/fr/blog/how-we-built-a-medium-like-rich-text-editor
-      `,
-    ],
     mergeEnvAndTechs: false,
   },
   {
@@ -101,7 +94,6 @@ const experiences = [
       "Doctrine",
       "Bootstrap",
     ],
-    publications: [],
     mergeEnvAndTechs: true,
   },
   {
@@ -122,7 +114,6 @@ const experiences = [
       "Integration Services (SSIS)",
       "Reporting Services (SSRS)",
     ],
-    publications: [],
     mergeEnvAndTechs: true,
   },
 ];

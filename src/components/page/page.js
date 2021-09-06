@@ -5,6 +5,7 @@ import AboutMe from "./../about-me";
 import Education from "./../education";
 import Experience from "./../experience";
 import Skills from "./../skills";
+import Publications from "./../publications";
 
 // Page :: Props -> React.Component
 const Page = () =>
@@ -31,6 +32,7 @@ const Page = () =>
 
       <Experience />
       <Education />
+      <Publications />
     </aside>
   </main>
 ;
