@@ -11,17 +11,17 @@ const Skills = () =>
 
       <ul>
         <li>
-          • Enjoy collaboration on projects by writing architecture decision
+          • Enjoys collaboration on projects by writing architecture decision
           records and code reviews. Addicted to git flow.
         </li>
         <li>
-          • Love to listen, challenge decisions & find compromises.
+          • Loves to listen, challenge decisions & find compromises.
         </li>
         <li>
           • Initiative spirit, force of proposal & constant learning.
         </li>
         <li>
-         • Aim at method and testability over rapid app development.<br/>
+         • Aims at method and testability over rapid app development.<br/>
          <b>Quality takes time.</b>
         </li>
       </ul>
