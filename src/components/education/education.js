@@ -9,8 +9,8 @@ const Education = () =>
 
     <ul>
       <li>
-        <b>Engineer's degree, Computer Science</b>, In progress, École
-          d'ingénieur du Conservatoire National des Arts et Métiers, Paris, FR.
+        <b>Engineer's degree, Computer Science</b>, In progress, EiCNAM,
+        Paris, FR.
       </li>
       <li>
         <b>Certificate of specialization on European Union</b>, 2020, EiCNAM,

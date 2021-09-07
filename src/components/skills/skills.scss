@@ -6,40 +6,36 @@ section.teamwork {
       &:not(:first-child) {
         margin-top: $size-4;
       }
-
-      b {
-        font-weight: $font-bold;
-      }
     }
   }
 }
 
 section.skills {
-  .columns {
+  .row {
     display: flex;
     flex-direction: row;
 
-    .right, .left {
-      width: 50%;
+    &:not(:first-child) {
+      margin-top: $size-5;
+    }
 
-      p {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-        span {
-          &.im {
-            margin-right: $size-4;
-            font-size: $font-xxl;
-          }
-        }
+      &:nth-child(2) {
+        margin: 0 $size-1;
+      }
 
-        // rxjs icon
-        img {
-          margin-right: $size-4;
-          max-width: 36px;
-          margin-left: -3px;
-        }
+      span.im {
+        font-size: $font-xl;
+      }
+
+      // rx logo
+      img {
+        max-height: 32px;
+        margin-top: 5px;
       }
     }
   }

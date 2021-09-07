@@ -3,23 +3,10 @@ import AsideTitle from "../aside-title";
 import "./experience.scss";
 import experiences from "./experiences";
 
-// SubList :: Props -> React.Component
-const SubList = ({
-  list = [],
-  label = "",
-}) => list.length > 0 &&
-  <div className={`${label.toLowerCase()} sublist wrapper`}>
-    <p className="label">{label}</p>
-    <p>
-      {list.join(", ")}
-    </p>
-  </div>
-;
-
 // Experience :: () -> React.Component
 const Experience = () =>
   <section className="experience">
-    <AsideTitle title="Work experience" icon="d" />
+    <AsideTitle title="Work experience - 7+ years" icon="d" />
 
     <ul>
       {experiences.map((exp, idx) =>
@@ -33,7 +20,7 @@ const Experience = () =>
                 <b>{exp.position}</b>, {exp.company}
               </p>
               <ul className="responsabilities">
-                {exp.responsabilities.map((resp, idx) =>
+                {exp.responsibilities.map((resp, idx) =>
                   <li key={`resp-${idx}`}>
                     {resp}
                   </li>
@@ -41,22 +28,12 @@ const Experience = () =>
               </ul>
             </div>
           </div>
-
-          {exp.mergeEnvAndTechs
-            ? <SubList
-                list={[...exp.techs, ...exp.environment]}
-              />
-            : <>
-                <SubList
-                  list={exp.environment}
-                  label="Environment"
-                />
-                <SubList
-                  list={exp.techs}
-                  label="Technologies"
-                />
-              </>
-          }
+          <div className="wrapper stack">
+            <p>Stack:</p>
+            <p>
+              {exp.techs.join(", ")}
+            </p>
+          </div>
         </li>
       )}
     </ul>
