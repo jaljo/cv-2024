@@ -19,9 +19,9 @@ const AboutMe = () =>
       </p>
 
       <ul>
-        <li>French native</li>
-        <li>English B2</li>
-        <li>Estonian A1 (it's something!)</li>
+        <li>• French native</li>
+        <li>• English B2</li>
+        <li>• Estonian A1 (it's something!)</li>
       </ul>
     </section>
   </>
