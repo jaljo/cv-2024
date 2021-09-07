@@ -101,7 +101,7 @@ const experiences = [
   },
   {
     date: "2013",
-    position: "Software tester / DBA assistant",
+    position: "IT Generalist / DBA assistant",
     company: "CNAM, Nantes, FR.",
     responsabilities: [
       `

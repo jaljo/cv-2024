@@ -13,9 +13,13 @@ const AboutMe = () =>
       </p>
       <p className="links">
         <span className="im">g</span>
-        github.com/jaljo<br/>
+        <a href="https://github.com/jaljo">
+          github.com/jaljo
+        </a><br/>
         <span className="im">i</span>
-        joris-langlois-42217252
+        <a href="https://www.linkedin.com/in/joris-langlois/">
+          joris-langlois
+        </a>
       </p>
 
       <ul>

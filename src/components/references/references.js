@@ -16,10 +16,16 @@ const References = () =>
             {contact.position}<br/>
             {contact.phone &&
               <>
-              {`${contact.phone}`}<br/>
+                <a href={`tel:${contact.phone}`}>
+                  {contact.phone}
+                </a>
+                <br/>
               </>
             }
-             {`${contact.email}`}<br/>
+            <a href={`mailto:${contact.email}`}>
+              {contact.email}
+            </a>
+            <br/>
           </p>
         </li>
       )}

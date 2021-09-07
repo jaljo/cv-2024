@@ -9,6 +9,10 @@ section.about-me {
     &.links {
       margin-top: $size-4;
 
+      a {
+        text-decoration: none;
+      }
+
       span.im {
         margin-right: $size-5;
       }
