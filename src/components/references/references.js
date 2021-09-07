@@ -7,6 +7,7 @@ import AsideTitle from "./../aside-title";
 const References = () =>
   <section className="references">
     <AsideTitle title="References" />
+
     <ul>
       {contacts.map((contact, idx) =>
         <li key={`ref-${idx}`}>

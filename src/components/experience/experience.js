@@ -45,7 +45,6 @@ const Experience = () =>
           {exp.mergeEnvAndTechs
             ? <SubList
                 list={[...exp.techs, ...exp.environment]}
-                label="Techs & env"
               />
             : <>
                 <SubList
@@ -58,10 +57,6 @@ const Experience = () =>
                 />
               </>
           }
-          <SubList
-            list={exp.publications}
-            label="Publications"
-          />
         </li>
       )}
     </ul>
