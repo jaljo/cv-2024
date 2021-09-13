@@ -3,31 +3,21 @@ import AsideTitle from "./../aside-title";
 import rxjs from "./../../assets/images/rxjs.svg";
 import "./skills.scss";
 
-// Skills :: () -> React.Component
-const Skills = () =>
+// Skills :: Props -> () -> React.Component
+const Skills = ({ trans }) => () =>
   <>
     <section className="teamwork">
-      <AsideTitle title="Teamwork" />
+      <AsideTitle title={trans("teamworkTitle")} />
 
       <ul>
-        <li>
-          • Enjoys collaboration on projects by writing architecture decision
-          records and code reviews. Addicted to git flow.
-        </li>
-        <li>
-          • Loves to listen, challenge decisions & find compromises.
-        </li>
-        <li>
-          • Initiative spirit, force of proposal & constant learning.
-        </li>
-        <li>
-         • Aims at method and testability over rapid app development.<br/>
-        </li>
+        {trans("teamSkills").map((skill, idx) =>
+          <li key={`sk-${idx}`}>• {skill}</li>
+        )}
       </ul>
     </section>
 
     <section className="skills">
-      <AsideTitle title="Main skills" />
+      <AsideTitle title={trans("skillsTitle")} />
 
       <div className="row">
         <p>

@@ -31,10 +31,10 @@ const cpSkills = [
   },
 ];
 
-// CrossProjectSkills :: () -> React.Component
-const CrossProjectSkills = () =>
+// CrossProjectSkills :: Props -> () -> React.Component
+const CrossProjectSkills = ({ trans }) => () =>
   <section className="cross-project-skills">
-    <AsideTitle title="Cross project skills" icon="b" />
+    <AsideTitle title={trans("title")} icon="b" />
 
     <div className="skills">
       {cpSkills.map((skill, idx) =>

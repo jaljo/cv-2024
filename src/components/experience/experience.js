@@ -1,15 +1,15 @@
 import React from "react";
 import AsideTitle from "../aside-title";
 import "./experience.scss";
-import experiences from "./experiences";
 
-// Experience :: () -> React.Component
-const Experience = () =>
+// Experience :: Props -> () -> React.Component
+const Experience = ({ trans }) => () =>
   <section className="experience">
-    <AsideTitle title="Work experience - 7+ years" icon="d" />
+    <AsideTitle title={trans("title")} icon="d" />
 
     <ul>
-      {experiences.map((exp, idx) =>
+      {trans("exps").map((exp, idx) =>
+        !exp.isHidden &&
         <li className="parent" key={`exp-${idx}`}>
           <div className="wrapper">
             <p className="date">

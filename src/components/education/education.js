@@ -2,24 +2,17 @@ import React from "react";
 import AsideTitle from "./../aside-title";
 import "./education.scss";
 
-// Education :: () -> React.Component
-const Education = () =>
+// Education :: Props -> () -> React.Component
+const Education = ({ trans }) => () =>
   <section className="continuing-education">
-    <AsideTitle title="Education & Continuing education" icon="q" />
+    <AsideTitle title={trans("title")} icon="q" />
 
     <ul>
-      <li>
-        <b>Engineer's degree, Computer Science</b>, In progress, EiCNAM,
-        Paris, FR.
-      </li>
-      <li>
-        <b>Certificate of specialization on European Union</b>, 2020, EiCNAM,
-        Paris, FR.
-      </li>
-      <li>
-        <b>Bachelor's degree, Computer Science</b> (4 years, 240 ECTS), 2014,
-        IMIE, Nantes, FR.
-      </li>
+      {trans("degrees").map((deg, idx) =>
+        <li key={`deg-${idx}`}>
+          <b>{deg.title}</b>, {deg.school}
+        </li>
+      )}
     </ul>
   </section>
 ;

@@ -12,7 +12,6 @@ const dictionary = {
     title: "Coordonées",
     linkedin: "joris-langlois/?locale=fr_FR",
     languages: [
-      "Français natif",
       "Anglais B2",
       "Estonien A1",
     ],
