@@ -37,8 +37,8 @@ const CrossProjectSkills = () =>
     <AsideTitle title="Cross project skills" icon="b" />
 
     <div className="skills">
-      {cpSkills.map(skill =>
-        <p className="skill">
+      {cpSkills.map((skill, idx) =>
+        <p className="skill" key={`cskill-${idx}`}>
           {(skill.icon && !["doctrine", "circle"].includes(skill.icon)) &&
             <span className="im">{skill.icon}</span>
           }

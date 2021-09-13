@@ -2,30 +2,34 @@ import React from "react";
 import AsideTitle from "../aside-title";
 import "./about-me.scss";
 
-// AboutMe :: () -> React.Component
-const AboutMe = () =>
+// AboutMe :: Props -> () -> React.Component
+const AboutMe = ({ trans }) => () =>
   <>
     <section className="about-me">
-      <AsideTitle title="About me" />
+      <AsideTitle title={trans("title")} />
       <p>
-        <span className="phone">+33 6 82 24 52 84</span><br/>
-        joris.langlois@gmail.com<br/>
+        <a className="phone" href="phone:+33682245284">
+          +33 6 82 24 52 84
+        </a><br/>
+        <a href="mailto:joris.langlois@gmail.com">
+          joris.langlois@gmail.com
+        </a><br/>
       </p>
-      <p className="links">
+      <p className="social-networks">
         <span className="im">g</span>
         <a href="https://github.com/jaljo">
           github.com/jaljo
         </a><br/>
         <span className="im">i</span>
-        <a href="https://www.linkedin.com/in/joris-langlois/">
-          joris-langlois
+        <a href={`https://www.linkedin.com/in/${trans("linkedin")}`}>
+          {trans("linkedin")}
         </a>
       </p>
 
       <ul>
-        <li>• French native</li>
-        <li>• English B2</li>
-        <li>• Estonian A1</li>
+        {trans("languages").map((lang, idx) =>
+          <li key={`lang-${idx}`}>• {lang}</li>
+        )}
       </ul>
     </section>
   </>
