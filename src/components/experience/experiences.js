@@ -1,123 +1,88 @@
 // [Experience]
 const experiences = [
   {
-    date: "2020 / 2021",
+    date: "2021 2020",
     position: "Full Stack Developer",
     company: "Self employed, Tallinn, EE.",
-    responsabilities: [
-      `Development & deployment of JAM stack architectured apps for SMEs`,
+    responsibilities: [
       `
-        Development of puzzle games for the french escape game company "La ligue
-        des Gentlemens"
-      `,
-    ],
-    environment: [
-      "Circle CI",
-      "Docker",
-      "Netlify",
-      "Github project",
-      "Trello",
+        Delivered JAM stack applications with challenging delays (< 1 month);
+        took consulting responsibilities in choice of stacks, infrastructure and
+        features.
+      `
     ],
     techs: [
       "Strapi",
       "Gatsby",
+      "Netlify",
+      "Bulma",
+      "Algolia",
+      "Elasticsearch",
+      "Traefik",
     ],
-    mergeEnvAndTechs: true,
   },
   {
-    date: "2018 / 2020",
+    date: "2020 2018",
     position: "Lead developer (Symfony, React)",
     company: "KNP Labs, Nantes, FR.",
-    responsabilities: [
+    responsibilities: [
       `
-        Development of a new single page app (SPA) back office for i24NEWS
-        editors and of a new SPA frontend for i24NEWS readers: i24news.tv
+        Developed single page applications and REST APIs for our international
+        client i24NEWS; took consulting responsibilities over time by assisting
+        final users (journalists) in the definition of their needs and
+        coordinating third parties involved in development; faced scalability
+        and orchestration challenges by deploying applications on both European
+        and US zone using Docker Swarm.
       `,
       `
-        Development, testing & code reviews of endpoints on i24NEWS REST API,
-        refactoring (i.e migration from Algolia search engine to Elastic Search)
+        Worked with a quality approach of continuous improvement and delivery,
+        (CI/CD) focused on testability (TDD), behavior (BDD) and flexibility
+        using agile methods; took lead responsibilities by training junior
+        developers and writing technical articles.
       `,
-      `
-        Deployments on i24NEWS infractructure (two swarm clusters: EU & US)
-      `,
-      `Coordination of i24NEWS third party providers (GRTH, Gini Apps, etc)`,
-      `
-        Coordination of i24NEWS staff to assist them in the definition of their
-        needs
-      `,
-      `Onboarding, training and coaching of junior developers`,
-    ],
-    environment: [
-      "Agile (SCRUM)",
-      "Traefik",
-      "Docker swarm",
-      "MySQL",
-      "Nginx",
-      "PHP",
-      "Javascript",
-      "Jira",
     ],
     techs: [
-      "Functional reactive programming (React, Redux, RxJS)",
-      "Jest",
-      "Bulma",
-      "SASS",
-      "Symfony",
+      "Functional reactive programming (RxJS)",
+      "Docker Swarm",
+      "SCRUM",
       "PHP Spec",
       "Behat",
-      "Swagger",
-      "Doctrine",
     ],
-    mergeEnvAndTechs: false,
   },
   {
-    date: "2013 / 2018",
+    date: "2018 2013",
     position: "Developer (Symfony)",
     company: "IBT Groupe, Nantes, FR.",
-    responsabilities: [
+    responsibilities: [
       `
-        Improvement of consultant's productivity by tracking & centralizing
-        their clients assistance tickets in an integrated web app. Reporting on
-        highest time consuming clients to give consultants insights on upcoming
-        periods
+        Improved overall quality of developments by deploying CI/CD tools,
+        versioning, testing good practices and frameworks; improved consultant's
+        productivity by developing an application to centralize their clients
+        assistance tickets; developed predictive analysis tools to give
+        consultants insights on upcoming periods.
       `,
-      `
-        Installation and deployment of business solutions on site & remotely
-        (CEGID)
-      `,
-    ],
-    environment: [
-      "Jenkins",
-      "PHP",
-      "MySQL",
-      "layered architecture",
     ],
     techs: [
-      "Symfony",
-      "Doctrine",
+      "Layered architecture",
+      "Jenkins",
       "Bootstrap",
     ],
-    mergeEnvAndTechs: true,
   },
   {
     date: "2013",
-    position: "Software tester / DBA assistant",
+    position: "IT Generalist / DBA assistant",
     company: "CNAM, Nantes, FR.",
-    responsabilities: [
+    responsibilities: [
       `
-        Conduct testing campaigns on schooling management software Gessic@ and
-        give feedbacks to directors on the viability of its deployment in
-        production
+        Developed backup and restoration routines, integration jobs and reports
+        for management to give them insights on enrolment of students each year.
       `,
-      `Assistance in DBA daily tasks: check of backups, development of reports`
     ],
-    environment: [],
     techs: [
       "SQL Server",
       "Integration Services (SSIS)",
       "Reporting Services (SSRS)",
     ],
-    mergeEnvAndTechs: true,
   },
 ];
 

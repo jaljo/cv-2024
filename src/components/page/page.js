@@ -6,6 +6,7 @@ import Education from "./../education";
 import Experience from "./../experience";
 import Skills from "./../skills";
 import Publications from "./../publications";
+import CrossProjectSkills from "./../cross-project-skills";
 
 // Page :: Props -> React.Component
 const Page = () =>
@@ -33,10 +34,10 @@ const Page = () =>
         <h1 className="me">
           Joris Langlois
         </h1>
-        <h2>Developer. Simply.</h2>
       </section>
 
       <Experience />
+      <CrossProjectSkills />
       <Education />
       <Publications />
     </aside>

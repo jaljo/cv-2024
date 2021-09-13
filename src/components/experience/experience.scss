@@ -13,7 +13,7 @@ section.experience {
 
         p {
           &:first-child {
-            min-width: 1.9cm;
+            min-width: 1cm;
             margin-right: $size-4;
           }
 
@@ -23,16 +23,13 @@ section.experience {
         }
 
         ul.responsabilities {
-          list-style-type: disc;
-
           li {
-            display: list-item;
-            margin-top: 0!important;
+            margin-top: $size-5;
             font-size: $font-s;
           }
         }
 
-        &.sublist {
+        &.stack {
           margin-top: $size-5;
 
           p {
@@ -40,12 +37,6 @@ section.experience {
 
             &:last-child {
               font-weight: $font-normal;
-            }
-          }
-
-          &.publications {
-            p:last-child {
-              font-weight: $font-light;
             }
           }
         }

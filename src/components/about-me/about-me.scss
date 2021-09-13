@@ -9,6 +9,10 @@ section.about-me {
     &.links {
       margin-top: $size-4;
 
+      a {
+        text-decoration: none;
+      }
+
       span.im {
         margin-right: $size-5;
       }
@@ -16,8 +20,6 @@ section.about-me {
   }
 
   ul {
-    margin-left: $size-3;
     margin-top: $size-4;
-    list-style-type: disc;
   }
 }
