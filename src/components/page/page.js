@@ -14,6 +14,9 @@ const Page = ({ trans }) => () =>
     {/* Available now */}
     <p className="available-now">
       {trans("available")}
+      {trans("address") !== null &&
+        <b>{trans("address")}</b>
+      }
     </p>
 
     {/* Left column */}

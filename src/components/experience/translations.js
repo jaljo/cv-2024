@@ -1,6 +1,7 @@
 const techsIndep = [
   "Strapi",
   "Gatsby",
+  "GraphQL",
   "Netlify",
   "Bulma",
   "Algolia",
