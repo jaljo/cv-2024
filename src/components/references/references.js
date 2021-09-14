@@ -1,15 +1,14 @@
 import React from "react";
 import "./references.scss";
-import contacts from "./contacts";
 import AsideTitle from "./../aside-title";
 
-// References :: () -> React.Component
-const References = () =>
+// References :: Props -> () -> React.Component
+const References = ({ trans }) => () =>
   <section className="references">
-    <AsideTitle title="References" />
+    <AsideTitle title={trans("title")} />
 
     <ul>
-      {contacts.map((contact, idx) =>
+      {trans("refs").map((contact, idx) =>
         <li key={`ref-${idx}`}>
           <p>
             <b>{contact.fullName}</b><br/>

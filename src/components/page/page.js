@@ -9,12 +9,11 @@ import Publications from "./../publications";
 import CrossProjectSkills from "./../cross-project-skills";
 
 // Page :: Props -> React.Component
-const Page = () =>
+const Page = ({ trans }) => () =>
   <main className="page">
     {/* Available now */}
     <p className="available-now">
-      Living in Tallinn<br/>
-      <b>Open to work now</b>
+      {trans("available")}
     </p>
 
     {/* Left column */}

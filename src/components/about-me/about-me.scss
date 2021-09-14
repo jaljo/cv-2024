@@ -2,16 +2,16 @@
 
 section.about-me {
   p {
-    span.phone {
-      font-size: $font-sm;
+    a {
+      text-decoration: none;
+
+      &.phone {
+        font-size: $font-sm;
+      }
     }
 
-    &.links {
+    &.social-networks {
       margin-top: $size-4;
-
-      a {
-        text-decoration: none;
-      }
 
       span.im {
         margin-right: $size-5;
