@@ -17,7 +17,11 @@ section.experience {
             margin-right: $size-4;
           }
 
-          &.date, &.position, > b {
+          &.date {
+            padding-top: 2px;
+          }
+
+          &.position, > b {
             font-size: $font-sm;
           }
         }

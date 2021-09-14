@@ -34,7 +34,7 @@ const dictionary = {
     exps: [
       {
         isHidden: false,
-        date: "20/21",
+        date: "20-21",
         position: "Full Stack Developer",
         company: "Self employed, Tallinn, EE.",
         responsibilities: [
@@ -48,7 +48,7 @@ const dictionary = {
       },
       {
         isHidden: false,
-        date: "18/20",
+        date: "18-20",
         position: "Lead developer (Symfony, React)",
         company: "KNP Labs, Nantes, FR.",
         responsibilities: [
@@ -71,7 +71,7 @@ const dictionary = {
       },
       {
         isHidden: false,
-        date: "13/18",
+        date: "13-18",
         position: "Developer (Symfony)",
         company: "IBT Groupe, Nantes, FR.",
         responsibilities: [
@@ -105,7 +105,7 @@ const dictionary = {
     exps: [
       {
         isHidden: false,
-        date: "20/21",
+        date: "20-21",
         position: "Développeur Full Stack",
         company: "Indépendant, Tallinn, Estonie.",
         responsibilities: [
@@ -119,7 +119,7 @@ const dictionary = {
       },
       {
         isHidden: false,
-        date: "18/20",
+        date: "18-20",
         position: "Développeur Lead (Symfony, React)",
         company: "KNP Labs, Nantes.",
         responsibilities: [
@@ -142,7 +142,7 @@ const dictionary = {
       },
       {
         isHidden: false,
-        date: "13/18",
+        date: "13-18",
         position: "Développeur (Symfony)",
         company: "IBT Groupe, Nantes.",
         responsibilities: [
