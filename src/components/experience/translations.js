@@ -185,9 +185,9 @@ const dictionary = {
         company: "CNAM, Nantes.",
         responsibilities: [
           `
-            Sauvegarde et de restauration de bases de données; développement de
-            processus ETL et de rapports avec satistiques d'inscriptions pour
-            la direction.
+            Sauvegarde et restauration de bases de données; développement de
+            processus ETL et de satistiques sur les inscriptions des étudiants à
+            destination de la direction.
           `,
         ],
         techs: techsCNAM,

@@ -1,11 +1,11 @@
 const dictionary = {
   en: {
     available: "Open to work now",
-    address: "Living in Tallinn",
+    address: "in Tallinn",
   },
   fr: {
     available: "Disponible de suite",
-    address: null,
+    address: "100% remote",
   },
 };
 
