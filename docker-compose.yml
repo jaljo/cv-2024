@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    image: node:22-alpine3.19
+    working_dir: /app
+    ports:
+      - "3333:5173"
+    volumes:
+      - ./:/app
+    tty: true
