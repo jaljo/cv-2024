@@ -1,0 +1,25 @@
+@import "./../../styles/variables.scss";
+
+section.about-me {
+  p {
+    a {
+      text-decoration: none;
+
+      &.phone {
+        font-size: $font-sm;
+      }
+    }
+
+    &.social-networks {
+      margin-top: $size-4;
+
+      span.im {
+        margin-right: $size-5;
+      }
+    }
+  }
+
+  ul {
+    margin-top: $size-4;
+  }
+}

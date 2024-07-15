@@ -1,0 +1,42 @@
+@import "./../../styles/variables.scss";
+
+section.teamwork {
+  ul {
+    li {
+      &:not(:first-child) {
+        margin-top: $size-4;
+      }
+    }
+  }
+}
+
+section.skills {
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    &:not(:first-child) {
+      margin-top: $size-5;
+    }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &:nth-child(2) {
+        margin: 0 $size-1;
+      }
+
+      span.im {
+        font-size: $font-xl;
+      }
+
+      // rx logo
+      img {
+        max-height: 32px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

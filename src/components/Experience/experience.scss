@@ -1,0 +1,50 @@
+@import "./../../styles/variables.scss";
+
+section.experience {
+  ul {
+    li {
+      &.parent:not(:first-of-type) {
+        margin-top: $size-3;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+
+        p {
+          &:first-child {
+            min-width: 1cm;
+            margin-right: $size-4;
+          }
+
+          &.date {
+            padding-top: 2px;
+          }
+
+          &.position, > b {
+            font-size: $font-sm;
+          }
+        }
+
+        ul.responsabilities {
+          li {
+            margin-top: $size-5;
+            font-size: $font-s;
+          }
+        }
+
+        &.stack {
+          margin-top: $size-5;
+
+          p {
+            font-size: $font-s;
+
+            &:last-child {
+              font-weight: $font-normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

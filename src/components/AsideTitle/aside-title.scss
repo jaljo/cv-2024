@@ -1,0 +1,25 @@
+@import "./../../styles/variables.scss";
+
+div.aside-title {
+  span.im {
+    float: left;
+    line-height: 2;
+    margin-right: $size-4;
+  }
+
+  h3 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: $font-l;
+    margin-bottom: $size-4;
+
+    span.separator {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: block;
+      border-bottom: 1px $white solid;
+      width: 125%;
+    }
+  }
+}

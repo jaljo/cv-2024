@@ -1,0 +1,24 @@
+@import "./../../styles/variables.scss";
+
+section.cross-project-skills {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+
+    p.skill {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        max-height: 20px;
+        margin-right: $size-5;
+      }
+
+      span {
+        font-size: $font-lm;
+        margin-right: $size-5;
+      }
+    }
+  }
+}
